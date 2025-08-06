@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini proyecto: Eventos en JavaScript</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Mini proyecto: Aprende AddEventListener</h1>
+
+<!-- Ejercicio 1: Clic en  boton-->
+<section>
+    <h2>1. Boton que cambia de texto</h2>
+    <button id="boton">Haz un clic aqui</button>
+    <p id="mensajeTexto">Esperando clic...</p>
+</section>
+
+<!-- Ejercicio 2: Caja que cambia de color-->
+<section>
+    <h2>2. Caja que cambia de color con el mouse</h2>
+    <div id="cajaColores" class="caja"></div>
+</section>
+
+<!-- Ejercicio 3: Tecla presionada-->
+<section>
+    <h2>3. Mostrar la tecla presionada</h2>
+    <input type="text" id="inputTecla">
+    <p id="teclaMostrada">presiona una tecla</p>
+</section>
+
+<!-- Ejercicio 4: Contador con botones -->
+<section>
+    <h2>4.Contador con botones</h2>
+    <button id="btnSumar">+</button>
+    <button id="btnRestar">-</button>
+    <p id="contador">0</p>
+</section>
+
+<!-- Ejercicio 5:  -->
+
+<section id="seccionDobleClick">
+    <h2>5. Doble click cambia de color de fondo</h2>
+    <p>Doble click en esta seccion para cambiar su color</p>
+</section>
+
+    <!-- Ejercicio 6:  -->
+
+    <section>
+    <h2>6. validar formato de email</h2>
+    <input type="text" id="emailInput" placeholder="Ingrsa tu email">
+    <p id="mensajeEmail"></p>
+    </section>
+
+    <!-- Ejercicio 7:  -->
+
+    <section>
+    <h2>7. Temporizador</h2>
+    <button id="IniciarTemporizador"></button>
+    <p id="temporizador">0 segundo</p>
+    </section>
+
+    <!-- Ejercicio 8:  -->
+    <section>
+    <h2>8. Desactivar boton y activar otro</h2>
+    <button id="btnDesactivar">Desactivar otro</button>
+    <button id="btnDesactivado">Yo sere desactivado</button>
+    <button id="btnActivar">Activar cuando desactiven</button>
+    </section>
+
+    <!-- Ejercicio 9:  -->
+
+    <section>
+        <h2>9. Toggle: Mostrar/Ocutar caja</h2>
+        <button id="btnToggleCaja">Mostrar/Ocutar</button>
+        <div id="togglecaja" class="caja" style="display: none;"></div>
+    </section>
+
+    <!-- Ejercicio 10:  -->
+    <section>
+        <h2>10. Imagen con efecto hover</h2>
+        <img id="imagenHover" src="" alt="imagen" width="150">
+    </section>
+    
+    
+    <!-- Ejercicio 11:  -->
+
+    <section>
+        <h2>10. Detectar scroll hover</h2>
+        <p id="mensajeScroll" class="scrollMensaje" style="display: none;">Estas haciendo scroll...</p>
+    </section>
+
+    <!-- Ejercicio 12:  -->
+
+    <section>
+        <h2>12. Input con focus y blur</h2>
+        <input type="text" id="inputFocusBlur" placeholder="Enfocame y desnfocame">
+    </section>
+
+    <!-- Ejercicio 13:  -->
+
+    <section>
+        <h2>13. Seleccion con Select</h2>
+        <select id="SelectColores">
+            <option value="">--seleciona un color--</option>
+            <option value="Rojo">Rojo</option>
+            <option value="Verde">Verde</option>
+            <option value="Azul">Azul</option>
+            <option value="Amarillo">Amarillo</option>
+        </select>
+        <p id="ColorSeleccionado">Color seleccionado: ninguno</p>
+    </section>
+
+    <!-- Ejercicio 14:  -->
+
+    <section>
+        <h2>14. Mostrar tamaño de ventana (resize)</h2>
+        <p id="tamañoVentana">Ancho x Altura  -- x --</p>
+    </section>
+
+    <!-- Ejercicio 14:  -->
+
+    <section>
+        <h2>15. Validar fomulario simple</h2>
+        <form id="formularioSimple">
+            <input type="text" id="nombreForm" placeholder="nombre">
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensajeForm"></p>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
